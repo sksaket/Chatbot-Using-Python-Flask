@@ -43,12 +43,18 @@ Chatbot-Using-Python-Flask
 ```
 
 
-**Usage:-**
-- Download this repository via GIT or zip.
-- Open CMD in directory of this repository(Python 3.6 should be installed)
-- type pip install -r requirements.txt.
-- After installation run app.py.
-- Go to the 127.0.0.1:5000/chatbot, You can start chatting.
+### Usage
+
+- Now run the `app.py` using
+
+```bash
+python chatbot_deployment.py
+```
+
+Congrats! The app should now be running on <http://localhost:5000>
+
+- Open `http://localhost:5000` in your browser to interact with the chatbot.
+ You can start chatting.
 Screenshots
 <img width="338" alt="bot1" src="https://user-images.githubusercontent.com/86573422/155187493-9acda31c-077b-4c4e-8a8e-285676ac780c.png">
 <img width="343" alt="bot" src="https://user-images.githubusercontent.com/86573422/155186720-126ccc8c-9508-4117-a2d2-f3d01d8fe3cf.png">
