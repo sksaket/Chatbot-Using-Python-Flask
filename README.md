@@ -38,8 +38,7 @@ git clone https://github.com/sksaket/Chatbot-Using-Python-Flask.git
 - Open the terminal/cmd and navigate to the project folder.
 
 ```bash
-cd 
-Chatbot-Using-Python-Flask
+cd Chatbot-Using-Python-Flask
 ```
 
 
