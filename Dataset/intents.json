@@ -1,0 +1,93 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", "What are your working hours?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "location",
+         "patterns": ["What is your location?", "Where are you located?", "What is your address?", "Where is your restaurant situated?" ],
+         "responses": ["We are on S No. 7 to 10, GF, Sonal Business Park, Gharda Circle, Dombivli, Maharashtra 421201.", "We are situated at S No. 7 to 10, GF, Sonal Business Park, Gharda Circle, Dombivli, Maharashtra 421201", "Our Address is: S No. 7 to 10, GF, Sonal Business Park, Gharda Circle, Dombivli, Maharashtra 421201"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "What are payment the options?", "how can i pay?"],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "todaysmenu",
+         "patterns": ["What is your menu for today?", "What are you serving today?", "What is today's special?"],
+         "responses": ["Today's special is Chicken Tikka", "Our speciality for today is Chicken Tikka"]
+        },
+        {"tag": "deliveryoption",
+         "patterns": ["Do you provide home delivery?", "Do you deliver the food?", "What are the home delivery options?" ],
+         "responses": ["Yes, we provide home delivery through UBER Eats and Zomato?", "We have home delivery options through UBER Eats and Zomato"],
+         "context_set": "food"
+        },
+        {"tag": "menu",
+         "patterns": ["What is your Menu?", "What are the main course options?", "Can you tell me the most delicious dish from the menu?", "What is the today's special?"],
+         "responses": ["You can visit www.mymenu.com for menu options", "You can check out the food menu at www.mymenu.com", "You can check various delicacies given in the food menu at www.mymenu.com"],
+         "context_filter": "food"
+        },
+         {"tag": "sanitation",
+         "patterns": ["Do the delivery agents follow covid19 protocols ensuring the safety of customers?", "Please let me know the protocols followed", "Is it safe to eat here ?", "Are the delivery agents vaccinated?"],
+         "responses": ["We understand your concern. All the covid 19 protocols are strictly followed and we have ensured a contactfree delivery to customers", "The restaurant follows 100% sanitation and completely safe to eat here.", "We have ensured the vaccination of Delivery agents and vaccination status is mentioned along with Delivery Agent name."]
+        
+        },
+         {"tag": "contactinformation",
+         "patterns": ["how to contact you?", "share the contact information","please share the contact details"],
+         "responses": ["You can contact us at toll free number 1800 2021 4569 or write to us at abcd@restaurant.com"]
+        
+        },
+         {"tag": "feedbackpositive",
+         "patterns": ["Loved the food", "The food delivery was on time", "Food is amazing","Really amazing gesture by staff and would recommend"],
+         "responses": ["Thank you for the feedback. We continue to fulfil the orders well. "]
+        
+        },
+         {"tag": "feedbacknegative",
+         "patterns": ["pathetic food", "Delivery was delayed ", "staff behaved rudely","won't recommend ","food is not hygienic"],
+         "responses": ["Apologies for the trouble. We ensure to take care of this henceforth. "]
+        
+        },
+                 {"tag": "vegenquiry",
+         "patterns": ["best veg restaurants", "best veg dishes","I am vegetarian. please show veg restaurants"],
+         "responses": ["Please find the veg restaurants by applying the filters under restaurants "]
+        
+        },
+            {"tag": "orderstatus",
+         "patterns": ["Please show my order status", "share my order status","order status","status of order"],
+         "responses": ["Kindly check the tab My Orders under Profile menu. Also, the order status will be shared in registered mobile number"]
+        
+        },
+                    {"tag": "chatbotidentity",
+         "patterns": ["Whats yor name?", "what do you call yourself?","how may i call you?"],
+         "responses": ["You can call me Chatbot"]
+        
+        },
+        {"tag": "offers",
+         "patterns": ["Are there any special offers available?", "Is there any offer or discount available for today ?","Discounts"],
+         "responses": ["Kindly check under the offers and discounts"]
+        
+        },
+        {"tag": "ordercancellation",
+         "patterns": ["Can i cancel my order?", "Order Cancellation policy","Will the money be refunded","How many days will it take for the money to be refunded"],
+         "responses": ["Please refer the order cancellation policy mentioned in the App"]
+        
+        },
+        {"tag": "cuisine",
+         "patterns": ["Show multi cuisine restaurants", "Indian food restaurants","Chinese dishes restaurants","Can i order Italian dishes?"],
+         "responses": ["Please find the multi cuisine restaurants by applying the filters under restaurants"]
+        
+        }
+   ]
+}
+
