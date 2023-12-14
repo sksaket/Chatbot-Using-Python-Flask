@@ -44,7 +44,7 @@ cd Chatbot-Using-Python-Flask
 
 ### Usage
 
-- Now run the `app.py` using
+- Now run the `app.py` using ..
 
 ```bash
 python chatbot_deployment.py
